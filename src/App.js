@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React  from 'react';
+import HocPage from './HocPage.js';
+import FormPage from './FormPage.js';
+import FormPage2 from './FormPage2'
+import MyFormPage from './MyFormPage'
+import DialogPage from './DialogPage.js';
+import CountPage from './CountPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HocPage></HocPage> */}
+      {/* <FormPage></FormPage> */}
+      {/* <FormPage2></FormPage2> */}
+      {/* <MyFormPage></MyFormPage>  */}
+      {/* <DialogPage></DialogPage> */}
+      <CountPage>
+        
+      </CountPage>
     </div>
   );
 }
